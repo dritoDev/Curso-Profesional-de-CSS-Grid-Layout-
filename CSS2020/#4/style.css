@@ -1,0 +1,23 @@
+
+.container {
+    display: grid;
+    background: rgb(241, 62, 17);
+    grid-template-columns: repeat(2, 1fr) ;
+    width: 200px;
+    height: 150px;
+    grid-template-areas: 
+        "card-1 card-2"
+        "card-3 card-3";
+}
+.item1 {
+    background-color: rgb(228, 169, 60);
+    grid-area: card-1;
+}
+.item2 {
+    background-color: rgb(175, 152, 115);
+    grid-area: card-2;
+} 
+.item3 {
+    background-color: #db5151;
+    grid-area: card-3;
+}

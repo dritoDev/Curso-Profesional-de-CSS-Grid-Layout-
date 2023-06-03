@@ -1,0 +1,17 @@
+.grid-container--fill {
+    grid-template-columns:  repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.grid-container--fill {
+    grid-template-columns:  repeat(auto-fit, minmax(100px, 1fr));
+}
+/* .item {
+    background-color: aqua;
+    width: 100%;
+    
+}
+.grid-container--fill {
+    display: grid;
+    width: 250px;
+    height: 150px;
+} */

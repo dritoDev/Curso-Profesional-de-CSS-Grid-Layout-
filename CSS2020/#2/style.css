@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    background: papayawhip;
+    grid-template-columns: repeat(2, 1fr) ;
+    width: 60px;
+    /* grid-template-areas: 
+        "item1 item2"
+        "item3"; */
+}
+.item {
+    background-color: hotpink;
+    width: 30px;
+    height: 30px;
+}

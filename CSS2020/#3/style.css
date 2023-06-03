@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    background: papayawhip;
+    grid-template-columns: repeat(2, 1fr) ;
+    width: 60px;
+    grid-template-areas: 
+        "card-1 card-2"
+        "card-1 card-3";
+}
+.item1 {
+    background-color: hotpink;
+    grid-area: card-1;
+}
+.item2 {
+    background-color: blueviolet;
+} 
+.item3 {
+    background-color: rgb(226, 141, 43);
+} 

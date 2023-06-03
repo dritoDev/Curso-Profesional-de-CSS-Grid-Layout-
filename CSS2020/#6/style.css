@@ -1,0 +1,16 @@
+.container1 {
+    background-color: papayawhip;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 80px;
+    height: 80px;
+    
+}
+
+.item1:nth-child(1) {
+    background: hotpink;
+    align-self: start;
+}
+.item1:not(:nth-child(1)) {
+    background: turquoise;
+}
